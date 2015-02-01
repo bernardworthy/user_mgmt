@@ -1,1 +1,44 @@
 /* TODO: Style your site */
+.form {
+  padding: 3em;
+}
+
+.list-item {
+  height: 100px;
+  widtH: 600px;
+  background: #f3f3f3;
+  position: relative;
+}
+
+.list-item__firstname {
+  position: relative;
+  display: inline-block;
+  top: 2.5em;
+  left: 1em;
+  float: left;
+  color: blue;
+}
+
+.list-item__lastname {
+  float: left;
+  display: inline-block;
+  position: relative;
+  color: black;
+  top: 2.5em;
+  left: 1em;
+}
+
+.list-item__email {
+  float: right;
+  display: inline-block;
+  position: relative;
+  color: aqua;
+  top: 2.5em;
+  right: 1em;
+}
+
+.list-item__closebtn {
+  position: absolute;
+  top: .2em;
+  right: .2em;
+}

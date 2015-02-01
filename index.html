@@ -9,8 +9,43 @@
 
   <!-- TODO: put your markup here -->
 
+  <form class="form">
+
+    <!-- <h1>Add User</h1> -->
+
+    <h3>First Name</h3>
+    <input type="text" class="textbox1" required title="Don't forget the First Name!" placeholder="First Name">
+
+    <h3>Last Name</h3>
+    <input type="text" class="textbox2" required title="Don't forget the Last Name!" placeholder="Last Name">
+
+    <h3>Email Name</h3>
+    <input type="email" class="textbox3" required title="Don't forget the Email!" placeholder="Email">
+
+    <div>
+      <input class="add-btn" type="submit">
+    </div>
+
+  </form>
+
+  <input type="text" class="search-box">
+
+  <select class="sort" onchange="getSortVal(this)">
+    <option value="regular"></option>
+    <option value="alpha">A-Z</option>
+    <option value="reverse">Z-A</option>
+  </select>
+
+  <div class="list-container">
+
+    <ul class="list"></ul>
+
+  </div>
+
   <script src="js/object-store.js"></script>
   <script src="js/user.js"></script>
+  <script src="js/main.js"></script>
+
 
   <!-- TODO: add more scripts here that use the
   classes defined in the previous scripts -->
