@@ -1,4 +1,4 @@
-# Week 2 Homework
+# User Mgmt Homework
 
 The homework for week 3. Your goal is to get the unit tests to
 pass without modifying any of the files in the test directory.
